@@ -1,0 +1,11 @@
+.SectionClients {
+    padding: 30px;
+}
+
+.ClientContainer {
+    box-shadow: -2px -2px 4px 0 rgb(44 44 44 / 80%), 2px 2px 4px 0 rgb(0 0 0 / 70%) !important;
+    margin-top: 15px;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}

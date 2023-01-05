@@ -1,0 +1,58 @@
+.ReactSpringParallax {}
+
+.mainBg {
+    background: "#131415";
+}
+
+.scrollText {
+    font-size: 1.5rem;
+}
+
+.card-big {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.25rem;
+    height: 10rem;
+    width: 55%;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.ParalexFlexStart {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: white;
+    width: 45% !important;
+}
+
+
+.ParalexFlexEnd {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background: #131415 !important;
+    color: white;
+}
+
+@media (max-width: 750px) {
+    .card {
+        width: 40%;
+    }
+
+    .parallax {
+        margin-right: 1.5rem;
+    }
+
+    .sticky {
+        margin-left: 1.5rem;
+    }
+
+    .ParalexFlexStart {
+        background: #131415 !important;
+        color: white;
+        width: 100% !important;
+        max-height: 30vh;
+    }
+}

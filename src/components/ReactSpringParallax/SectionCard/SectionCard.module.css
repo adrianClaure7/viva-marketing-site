@@ -1,0 +1,32 @@
+.SectionCard {
+    justify-content: center;
+    align-items: center;
+    font-size: 1.25rem;
+    width: 49%;
+    text-align: center;
+    color: white;
+    height: auto;
+    margin-right: 15px;
+
+}
+
+.CardContainer {
+
+    background: #2c2c30;
+    border-radius: 20px;
+    border-radius: 10px;
+    padding: 30px 20px;
+}
+
+.NumberClass {
+    font-size: 10rem;
+    font-weight: bold;
+    color: #000000;
+}
+
+
+@media (max-width: 750px) {
+    .SectionCard {
+        width: 100% !important;
+    }
+}

@@ -1,0 +1,20 @@
+.SectionOne {
+    padding: 30px;
+}
+.TextMulticolor {
+    font-weight: bold;
+    color: #CB5EEE;
+    animation-name: colorChange;
+    animation-duration: .75s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes colorChange {
+
+
+    to {
+        color: #4BE1EC;
+    }
+}
