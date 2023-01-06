@@ -6,7 +6,7 @@ A modern marketing site featuring parallax scrolling and animation effects.
 
 - Parallax scrolling background images
 - Smooth transitions between pages
-- animation effect in text
+- Animation effect in text
 
 ## Installation
 
