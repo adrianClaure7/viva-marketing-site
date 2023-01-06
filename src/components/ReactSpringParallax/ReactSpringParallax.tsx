@@ -14,7 +14,7 @@ const ReactSpringParallax: FC<ReactSpringParallaxProps> = () => {
   return (
     <div style={{ width: "100%", height: "100%" }}>
       <Parallax
-        pages={7}
+        pages={8}
         style={{
           background: "#131415",
         }}
@@ -51,12 +51,11 @@ const ReactSpringParallax: FC<ReactSpringParallaxProps> = () => {
         </ParallaxLayer>
 
         <ParallaxLayer
-          offset={0.9}
+          offset={1}
           style={{
             ...alignCenter,
             justifyContent: "center",
             background: "#2c2c30",
-            maxHeight: "60vh",
           }}
         >
           <SectionTwo
@@ -68,7 +67,7 @@ const ReactSpringParallax: FC<ReactSpringParallaxProps> = () => {
         </ParallaxLayer>
 
         <ParallaxLayer
-          sticky={{ start: 1.5, end: 4 }}
+          sticky={{ start: 2, end: 5 }}
           className={styles.ParalexFlexStart}
         >
           <SectionTwo
@@ -78,7 +77,7 @@ const ReactSpringParallax: FC<ReactSpringParallaxProps> = () => {
           ></SectionTwo>
         </ParallaxLayer>
 
-        <ParallaxLayer offset={1.9} speed={1} className={styles.ParalexFlexEnd}>
+        <ParallaxLayer offset={3} speed={1} className={styles.ParalexFlexEnd}>
           <SectionCard
             number="1"
             title="Añade Viva a Chrome de forma gratuita"
@@ -89,7 +88,7 @@ const ReactSpringParallax: FC<ReactSpringParallaxProps> = () => {
           ></SectionCard>
         </ParallaxLayer>
 
-        <ParallaxLayer offset={2.9} speed={1} className={styles.ParalexFlexEnd}>
+        <ParallaxLayer offset={4} speed={1} className={styles.ParalexFlexEnd}>
           <SectionCard
             number="2"
             title="Únete a una llamada de Google Meets"
@@ -98,7 +97,7 @@ const ReactSpringParallax: FC<ReactSpringParallaxProps> = () => {
           ></SectionCard>
         </ParallaxLayer>
 
-        <ParallaxLayer offset={3.9} speed={1} className={styles.ParalexFlexEnd}>
+        <ParallaxLayer offset={5} speed={1} className={styles.ParalexFlexEnd}>
           <SectionCard
             number="3"
             title="Experimenta la magia"
@@ -107,7 +106,7 @@ const ReactSpringParallax: FC<ReactSpringParallaxProps> = () => {
           ></SectionCard>
         </ParallaxLayer>
         <ParallaxLayer
-          offset={5}
+          offset={6}
           speed={1}
           style={{
             ...alignCenter,
@@ -118,12 +117,12 @@ const ReactSpringParallax: FC<ReactSpringParallaxProps> = () => {
           <SectionClients></SectionClients>
         </ParallaxLayer>
         <ParallaxLayer
-          offset={6}
+          offset={7}
           style={{
             ...alignCenter,
             justifyContent: "center",
             background: "#2c2c30",
-            maxHeight: "90vh",
+            maxHeight: "95vh",
           }}
         >
           <SectionTwo
