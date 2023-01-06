@@ -18,7 +18,7 @@ A modern marketing site featuring parallax scrolling and animation effects.
 
 Visit http://localhost:3000 in your browser to view the site.
 
-# Credits
+## Credits
 
 Development: Adrian Claure
 
