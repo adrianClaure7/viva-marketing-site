@@ -59,6 +59,7 @@ const ReactSpringParallax: FC<ReactSpringParallaxProps> = () => {
           }}
         >
           <SectionTwo
+            animateText="animate__pulse"
             buttonText="Prueba Viva"
             buttonUrl="https://app.vivatranslate.com/welcome"
             title="Viva Translate para profesionales."
@@ -71,6 +72,7 @@ const ReactSpringParallax: FC<ReactSpringParallaxProps> = () => {
           className={styles.ParalexFlexStart}
         >
           <SectionTwo
+            animateText="animate__bounce"
             title="¿Cómo funciona?"
             subTitle="Viva Translate te permite traducir las llamadas de Google Meets en tiempo real.
             Todas las notas de tus reuniones se guardan automáticamente en un solo lugar."
@@ -126,6 +128,7 @@ const ReactSpringParallax: FC<ReactSpringParallaxProps> = () => {
           }}
         >
           <SectionTwo
+            animateText="animate__pulse"
             buttonText="Quiero intentarlo"
             buttonUrl="https://app.vivatranslate.com/welcome"
             title="Observa cómo Viva puede trabajar para ti."
