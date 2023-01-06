@@ -53,6 +53,7 @@
         background: #131415 !important;
         color: white;
         width: 100% !important;
-        max-height: 30vh;
+        max-height: 34vh;
+        padding-top: 2rem;
     }
 }

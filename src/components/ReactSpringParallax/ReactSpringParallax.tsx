@@ -72,7 +72,7 @@ const ReactSpringParallax: FC<ReactSpringParallaxProps> = () => {
           className={styles.ParalexFlexStart}
         >
           <SectionTwo
-            animateText="animate__bounce"
+            animateText="animate__bounce mt-50"
             title="¿Cómo funciona?"
             subTitle="Viva Translate te permite traducir las llamadas de Google Meets en tiempo real.
             Todas las notas de tus reuniones se guardan automáticamente en un solo lugar."

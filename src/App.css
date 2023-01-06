@@ -54,6 +54,9 @@
   margin-top: 30px;
 }
 
+.mt-50 {
+  margin-top: 50px;
+}
 .bgMulticolor {
   background-color: #CB5EEE;
   background: linear-gradient(135deg, #CB5EEE 0%, #4BE1EC 100%) !important;
@@ -105,6 +108,6 @@
 
 @media (max-width: 750px) {
   .fs-11 {
-    font-size: 3rem;
+    font-size: 2.1rem;
   }
 }
