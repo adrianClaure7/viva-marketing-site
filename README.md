@@ -6,7 +6,7 @@ A modern marketing site featuring parallax scrolling and animation effects.
 
 - Parallax scrolling background images
 - Smooth transitions between pages
-- Calls to action
+- animation effect in text
 
 ## Installation
 
@@ -20,7 +20,6 @@ Visit http://localhost:3000 in your browser to view the site.
 
 # Credits
 
-Design: Adrian Claure
 Development: Adrian Claure
 
 Live Demo: https://main.d3129ofjm6p5e.amplifyapp.com/
